@@ -1,3 +1,5 @@
+android studio final project for mobile university course
+
 Functional description
 
 Arcade is a Android mobile app that has 3 minigames that include “Mystery Jersey”,
