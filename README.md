@@ -1,4 +1,5 @@
 Functional description
+
 Arcade is a Android mobile app that has 3 minigames that include “Mystery Jersey”,
 “Stick and Puck '', and “Tap Tap Puck”. Mystery Jersey is a guessing game, Stick and
 Puck is an interactive game that involves hitting a puck and Tap Tap Puck is an
@@ -9,10 +10,12 @@ mobile games on the Google Play Store. Currently, due to budget constraints, the
 application is only published to Github. The design constraints is that I was not able to
 test on many Android devices physically. The deadline is due December 12, 2022 and
 the project has been completed in two weeks.
+
 Market survey and comparison with similar apps
 Similar game applications include Plato and The Jackbox Party Box as they include a
 package of games in an application. There is yet to be a functional multi-sport game
 application on the Play Store.
+
 Introduction (Splash Screen + Main Page)
 The app begins with a splash screen that uses Animation, a Handler, and Intents.
 Within the splash screen, copyright text is added to the bottom of the screen as a
@@ -35,6 +38,7 @@ developer.android.com was used for guidance and inspiration. The app has been te
 on multiple Android phones available on emulator and a Lenovo Tablet. Attached in a
 separate zip folder are videos of the app working and running. Final Copy of Game will
 be uploaded to Github instead of Google Play Store.
+
 Splash Screen Test Case
 - Test duration
 - Test fade animation
@@ -43,10 +47,12 @@ Splash Screen Test Case
 - Test navigation throughout app using buttons to access all games and modes
 - Test size of screen
 - Test copyright message appears
+
 Main Page Test Case
 - Test visual works for multiple devices
 - Test each button opens each game successfully
 - Test all home buttons lead back to Main Page
+
 Game 1 - Mystery Jersey
 Mystery Jersey is a guessing game where the user must guess the random jersey
 number in a limited number of guesses. After each guess, the user will see their last
@@ -64,6 +70,7 @@ data and updating it after each guess. Once the game is over, an AlertDialog wil
 present and display all stats from the game. If user selection is “yes”, lead to Game
 Main Page Activity and if “no”, lead to Arcade Main Page for the user to play again. This
 game is inspired by the HiLo card game.
+
 Game 1 Test Cases
 - Test all 3 modes selections work
 - Switching between selections
@@ -78,11 +85,13 @@ Game 1 Test Cases
 - Test using decimal numbers
 - Test Play Again Button (Yes Option)
 - Test Home Button (No Option)
+
 Game 1 Known bugs
 - No radio selection, should not start game (Fixed)
 - Toast message should alert user to select an option
 - Toast message sometimes doesn’t appear after back to back numbers (Fixed)
 - Limit number of digit inputs (Fixed)
+
 Game 2 - Stick and Puck
 Stick and Puck is a game designed to shoot the puck as many times without missing.
 The user will have 3 lives to try and shoot the puck as many times as possible. The
@@ -102,6 +111,7 @@ game attributes. Bitmap was used to store the image file of both the stick and p
 MediaPlayer was used to control the sound of puck hitting and missing the stick. A
 TableLayout was used for the end credit scores. This game is inspired by a mix of
 Pong and BrickBreaker games.
+
 Game 2 Test Cases
 - Test home button, play button, and sound button all work as image buttons
 - Test sound button works and syncs with audio when on and off
@@ -116,12 +126,14 @@ Game 2 Test Cases
 - Test after 3 lives game must end
 - Test health bar size and color changes
 - Test score is updating beginning each game and scores are correctly stored
+
 Game 2 Known Bugs
 - Puck sometimes same x and y coordinate stuck (Fixed)
 - Fix all conditions of hitting the stick against puck (Fixed)
 - Audio doesn’t last full duration(Fixed)
 - Audio OFF button but keeps playing (Fixed)
 - Speed of puck varies between devices
+
 Game 3 - Tap Tap Puck
 Tap Tap Puck is a game where you have to try to touch as many pucks on the ice rink in
 a certain amount of time to score. Every time the puck is tapped, a goal is scored and a
@@ -139,6 +151,7 @@ and these transitions are dealt with the Intent and onClickListener. The game wi
 speed up depending on the user’s previous score and will adjust after every match
 which is dealt by with the Handler. The game is inspired by Whack- a-mole and Bubble
 Burst games.
+
 Game 3 Test Cases
 - Test Countdown timer to begin game starts immediately
 - Tests second Countdown timer starts right after and does not interfere and is
@@ -153,6 +166,7 @@ separate
 - Test touching services of different devices
 - Test Play Again button and Go Home button
 - Test different devices, rink size can hold all 9 possible puck locations
+
 Game 3 Known Bugs
 - Countdown timer overlaps, need a fresh start when game starts (Fixed)
 - Clicking rink counts as a point (Fixed)
@@ -160,21 +174,25 @@ Game 3 Known Bugs
 - Clicking puck sometimes doesn’t register or counts as two (Fixed)
 - Gold medal does not appear sometimes when beat high score (Fixed)
 - Rink size varies between devices
+
 Contact Developer Activity
 To contact myself, the developer, I created a Button on the Main page that displays
 access to my email and uses an Action View actions and specific content with an URI
 as the intent data. This will lead the user to whatever mail account is associated with
 their device.
+
 Contact Developer Activity Tests
 - Tests button leads to contact page
 - Tested using Gmail and Outlook.
 - Tests logging in and developer email and subject appear automatically
 - Test still can access game and all highscores are still saved
+
 Contact Developer Activity Bugs
 - Glitches if there is not an Internet connection
 Performance evaluation
 All apps run smoothly and all games seamlessly transition between each other.
 Attached is a zip folder of how each game is run.
+
 Future Updates
 If given more time, I would have liked to sync all the games into one leaderboard and
 add customization features that allow the user to select different color and image
