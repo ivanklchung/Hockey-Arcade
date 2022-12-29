@@ -1,4 +1,4 @@
-android studio final project for mobile university course
+Android Studio to create hockey inspired mini games for University Mobile Course
 
 Functional description
 
