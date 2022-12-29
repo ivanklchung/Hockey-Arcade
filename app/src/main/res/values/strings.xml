@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Arcade</string>
+
+    // Main Page
+    <string name="title">Welcome to Hockey Arcade</string>
+    <string name="Game1">Mystery Jersey</string>
+    <string name="Game2">Stick and Puck</string>
+    <string name="Game3">Tap Tap Puck</string>
+    <string name="contact">Contact Developer</string>
+
+
+    // Game 1 Splash Activity
+    <string name="game1SplashTitle">Jersey Number Guessing Game</string>
+    <string name="copyright">copyright: Ivan Chung 2022</string>
+
+    // Game 1
+    <string name="info_game1">Please select a jersey number. Try and guess what random jersey number is chosen in 10 or less guesses.\nJersey Number Modes can be 2 digits, 3 digits, or 4 digits</string>
+    <string name="title_game1">MYSTERY JERSEY</string>
+    <string name="radio1">Jersey ## </string>
+    <string name="radio2">Jersey ### </string>
+    <string name="radio3">Jersey #### </string>
+    <string name="start">START</string>
+    <string name="home_game1">HOME</string>
+    <string name="hint">Guess Jersey Number</string>
+    <string name="confirm">CONFIRM</string>
+
+    // Game 2
+    <string name="info_game2">Press Play Button To Start \nPlease drag hockey stick left and right to see how many times you can shoot the puck. You will have only 3 lives. Good Luck!
+    \nTurn Volume On and Off by clicking volume button</string>
+    <string name="title_game2">STICK AND PUCK</string>
+    <string name="points">Points: </string>
+    <string name="high_score">Highscore:  </string>
+    <string name="current_points">0</string>
+    <string name="current_highscore">0</string>
+
+    // Game 3
+    <string name="CountDown">TIME REMAINING: </string>
+    <string name="score">SCORE:</string>
+    <string name="timer">1</string>
+    <string name="title_game3">Tap Tap Puck</string>
+    <string name="title_game3plusinfo">Tap Tap Puck \ntap puck to score!</string>
+    <string name="game3Info">Great Shooting! \nTap more pucks to beat Highscore.</string>
+    <string name="endScore">Score: </string>
+    <string name="endHighscore">Highscore: </string>
+    <string name="playagain3">PLAY AGAIN</string>
+    <string name="home3">GO HOME</string>
+
+
+</resources>

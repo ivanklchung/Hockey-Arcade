@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout_game2Main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/beige"
+    android:orientation="vertical"
+    android:weightSum="3"
+    tools:context=".Game2">
+
+    <TextView
+        android:id="@+id/textView_StickAndPuck"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.25"
+        android:gravity="center"
+        android:text="@string/title_game2"
+        android:textColor="@color/red"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView_game2Instructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_weight="0.25"
+        android:gravity="center"
+        android:text="@string/info_game2"
+        android:textColor="@color/black"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/imageButton_HOME"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_weight="0.25"
+        android:background="@drawable/exit"
+        android:onClick="home" />
+
+    <ImageButton
+        android:id="@+id/imageButton_Play"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center|center_horizontal"
+        android:layout_marginBottom="15dp"
+        android:layout_weight="1"
+        android:background="@drawable/play"
+        android:onClick="startGame" />
+
+    <ImageButton
+        android:id="@+id/imageButton_Audio"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:background="@drawable/audio_on"
+        android:onClick="audioPref" />
+
+</LinearLayout>
